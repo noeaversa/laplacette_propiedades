@@ -1,0 +1,33 @@
+body, html{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    margin: auto;
+}
+
+#nav{
+    background-color: white !important;
+    border-bottom: 2px solid #c7d304;
+    color: #575556;
+    font-size: 20px;
+}
+
+#navCollapse{
+    background-color: white !important;
+}
+
+#logo{
+    width: 65px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.nav-element{
+    margin-left: 20vw !important;
+    cursor: pointer;
+}
+
+.nav-element:hover{
+    color: #c7d304 !important;
+}
