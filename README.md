@@ -1,0 +1,1 @@
+# laplacette_propiedades
