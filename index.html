@@ -6,19 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Laplacette propiedades | Inicio</title>
     <link rel="stylesheet" href="/index/index.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="/images/Laplacette propiedades - Logo.jpeg" type="image/jpeg">    
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"></head>
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
 <body>
     <nav class="navbar navbar-expand-lg" id="nav">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#"><img src="/images/Laplacette propiedades - Logo.jpeg" alt="logo" id="logo"></a>
+          <a class="navbar-brand" href="#"><img src="/images/LaplacettePropiedades_Logo.png" alt="logo" id="logo"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse d-flex justify-content-around align-self-center" id="navbarNavAltMarkup">
+          <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-              <a class="nav-link nav-element" aria-current="page" href="#">Asesoría Legal</a>
+              <a class="nav-link nav-element " aria-current="page" href="#">Asesoria Legal</a>
               <a class="nav-link nav-element" href="#">Inmobiliaria</a>
               <a class="nav-link nav-element" href="#">Contactanos</a>
             </div>
@@ -26,26 +28,46 @@
         </div>
       </nav>    
 
-<div id="carouselExampleAutoplaying" class="carousel slide carousel-class d-flex justify-content-center align-self-center" data-bs-ride="carousel">
-    <div class="carousel-inner">
-      <div class="carousel-item active carousel-slide">
-        <img class="carousel-img" src="/images/slide1_2.jpeg" class="d-flex" alt="...">
-      </div>
-      <div class="carousel-item carousel-slide">
-        <img class="carousel-img" src="/images/slide2.PNG" class=" d-flex " alt="...">
-      </div>
-      <div class="carousel-item carousel-slide">
-        <img class="carousel-img" src="https://media.istockphoto.com/id/517188688/photo/mountain-landscape.jpg?s=612x612&w=0&k=20&c=A63koPKaCyIwQWOTFBRWXj_PwCrR4cEoOw2S9Q7yVl8=" class=" d-flex" alt="...">
-      </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
+      <div id="carouselExampleDark" class="carousel carousel-dark slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner align-content-center d-flex">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="https://media-cdn.tripadvisor.com/media/photo-s/03/9b/2d/ba/buenos-aires.jpg" class="d-block  carousel-img" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="https://www.cronista.com/files/image/161/161625/5ff7e06c6628d.jpg" class="d-block w-100 carousel-img" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://i.ytimg.com/vi/VLCjdh4sqIQ/maxresdefault.jpg" class="d-block w-100 carousel-img" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
         </button>
-    </div>
+      </div>
+
+      <div id="descripcion-areas">
+        <h1 id="titulo-areas" class="textos">NUESTRAS ÁREAS</h1>
+        <div id="container-areas"> 
+          <div id="estudio-juridico" class="contenedor">
+            <a href=""><img src="/images/juridico.png" class="imagenes-areas" alt=""></a>
+            <h1 class="descripcion-areas textos">Estudio Jurídico</h1>
+          </div>
+          <div id="inmobiliaria" class="contenedor">
+            <a href=""><img src="/images/agente-inmobiliario.png" class="imagenes-areas" alt=""></a>
+            <h1 class="descripcion-areas textos">Inmobiliaria</h1>
+          </div>
+        </div>
+      </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 
